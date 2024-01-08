@@ -1,3 +1,4 @@
 # GenZ-Bodhi
 
-The code will be uploaded soon.. A minor error occured. Sorry for the inconvinience.
+The code is in progress lets have a look at our prototype of figma please for better demo...
+😊
