@@ -1,0 +1,900 @@
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-ncbharyana.in-alto: rgba(221, 220, 220, 1);
+  --dl-color-ncbharyana.in-gray: rgba(147, 146, 146, 1);
+  --dl-color-ncbharyana.in-nero: rgba(255, 255, 255, 1);
+  --dl-color-ncbharyana.in-black: rgba(0, 0, 0, 1);
+  --dl-color-ncbharyana.in-monza: rgba(197, 0, 30, 1);
+  --dl-color-ncbharyana.in-twine: rgba(201, 158, 105, 1);
+  --dl-color-ncbharyana.in-geyser: rgba(207, 217, 222, 1);
+  --dl-color-ncbharyana.in-silver: rgba(190, 190, 190, 1);
+  --dl-color-www.shopify.com-iron: rgba(212, 212, 216, 1);
+  --dl-color-www.shopify.com-nero: rgba(255, 255, 255, 1);
+  --dl-color-ncbharyana.in-blumine: rgba(26, 78, 126, 1);
+  --dl-color-ncbharyana.in-boulder: rgba(119, 119, 119, 1);
+  --dl-color-ncbharyana.in-emperor: rgba(85, 85, 85, 1);
+  --dl-color-ncbharyana.in-gallery: rgba(239, 239, 239, 1);
+  --dl-color-ncbharyana.in-mercury: rgba(229, 229, 229, 1);
+  --dl-color-www.shopify.com-black: rgba(0, 0, 0, 1);
+  --dl-color-www.shopify.com-shark: rgba(27, 31, 33, 1);
+  --dl-color-www.shopify.com-sushi: rgba(149, 191, 71, 1);
+  --dl-color-www.shopify.com-turbo: rgba(239, 233, 255, 1);
+  --dl-space-space-oneandhalfunits: 24px;
+  --dl-color-ncbharyana.in-cerulean: rgba(0, 174, 205, 1);
+  --dl-color-ncbharyana.in-dovegray: rgba(101, 101, 101, 1);
+  --dl-color-ncbharyana.in-lochmara: rgba(0, 114, 188, 1);
+  --dl-color-ncbharyana.in-wildsand: rgba(245, 245, 245, 1);
+  --dl-color-www.shopify.com-amazon: rgba(45, 113, 86, 1);
+  --dl-color-www.shopify.com-nero02: rgba(255, 255, 255, 0.0020000000949949026);
+  --dl-color-www.shopify.com-nero15: rgba(255, 255, 255, 0.15000000596046448);
+  --dl-color-www.shopify.com-nero40: rgba(255, 255, 255, 0.4000000059604645);
+  --dl-color-ncbharyana.in-alabaster: rgba(248, 248, 248, 1);
+  --dl-color-ncbharyana.in-astronaut: rgba(47, 54, 126, 1);
+  --dl-color-ncbharyana.in-mineshaft: rgba(51, 51, 51, 1);
+  --dl-color-ncbharyana.in-tallpoppy: rgba(178, 47, 37, 1);
+  --dl-color-www.shopify.com-black20: rgba(0, 0, 0, 0.20000000298023224);
+  --dl-color-www.shopify.com-black50: rgba(0, 0, 0, 0.5);
+  --dl-color-ncbharyana.in-bostonblue: rgba(66, 139, 202, 1);
+  --dl-color-ncbharyana.in-pictonblue: rgba(80, 171, 241, 1);
+  --dl-color-www.shopify.com-magnolia: rgba(247, 244, 254, 1);
+  --dl-color-www.shopify.com-shipgray: rgba(63, 63, 70, 1);
+  --dl-color-www.shopify.com-tarawera: rgba(8, 68, 94, 1);
+  --dl-color-www.shopify.com-valencia: rgba(215, 62, 62, 1);
+  --dl-color-ncbharyana.in-desertstorm: rgba(252, 252, 251, 1);
+  --dl-color-www.shopify.com-aliceblue: rgba(244, 250, 254, 1);
+  --dl-color-www.shopify.com-ferngreen: rgba(94, 142, 62, 1);
+  --dl-color-www.shopify.com-magicmint: rgba(174, 242, 215, 1);
+  --dl-color-www.shopify.com-sauvignon: rgba(254, 246, 244, 1);
+  --dl-color-www.shopify.com-woodsmoke: rgba(24, 24, 27, 1);
+  --dl-color-www.shopify.com_cyan-aqua: rgba(255, 233, 241, 1);
+  --dl-color-www.shopify.com-athensgray: rgba(249, 250, 251, 1);
+  --dl-color-www.shopify.com-blueribbon: rgba(33, 104, 242, 1);
+  --dl-color-www.shopify.com-outerspace: rgba(40, 48, 52, 1);
+  --dl-color-www.shopify.com-radicalred: rgba(248, 48, 98, 1);
+  --dl-color-www.shopify.com-scarpaflow: rgba(82, 82, 91, 1);
+  --dl-color-www.shopify.com-frostedmint: rgba(229, 253, 243, 1);
+  --dl-color-ncbharyana.in-linearneroblack: rgba(255, 255, 255, 1);
+  --dl-color-www.shopify.com-lavenderblush: rgba(254, 244, 246, 1);
+  --dl-color-ncbharyana.in-linearblackblack: rgba(0, 0, 0, 1);
+  --dl-color-www.shopify.com-electricviolet: rgba(100, 33, 242, 1);
+  --dl-color-ncbharyana.in-linearnerocodgray: rgba(255, 255, 255, 1);
+  --dl-color-www.shopify.com-brightturquoise: rgba(255, 233, 233, 1);
+  --dl-color-www.shopify.com-chartreuseyellow: rgba(233, 244, 255, 1);
+  --dl-color-www.shopify.com-linearemeraldroyalblue: rgba(102, 208, 138, 1);
+  --dl-color-www.shopify.com-sharklinearcodgrayblack: rgba(27, 28, 28, 1);
+  --dl-color-www.shopify.com-lineardownyscreamingreen: rgba(95, 213, 182, 1);
+  --dl-color-www.shopify.com-linearmountainmeadowgreen: rgba(21, 192, 100, 1);
+  --dl-color-www.shopify.com-linearceruleancaribbeangreen: rgba(1, 186, 226, 1);
+  --dl-color-www.shopify.com-linearpurplenutmegwoodfinish: rgba(99, 255, 169, 1);
+  --dl-color-ncbharyana.in-linearfungreennerojapaneselaurel: rgba(255, 153, 51, 1);
+  --dl-color-www.shopify.com-linearblizzardbluescreamingreen: rgba(150, 228, 233, 1);
+  --dl-color-www.shopify.com-linearpurplemintgreenbuddhagold: rgba(137, 255, 191, 1);
+  --dl-color-www.shopify.com-linearaquaspringonahautitanwhite: rgba(233, 249, 244, 1);
+  --dl-color-www.shopify.com-linearcornflowerbluescreamingreen: rgba(85, 118, 237, 1);
+  --dl-color-www.shopify.com-radialaquaspringonahautitanwhiteblack: rgba(233, 249, 244, 1);
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.www\.shopify\.comInterBold37\.5 {
+  font-size: 37.5px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoSemiBold20 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular16\.88 {
+  font-size: 16.875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterBold12\.8upper {
+  font-size: 12.796875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold43\.13 {
+  font-size: 43.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium17\.16 {
+  font-size: 17.15625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13\.02 {
+  font-size: 13.015625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular17\.161 {
+  font-size: 17.15625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular15 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoSemiBold12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular17\.44 {
+  font-size: 17.4375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold37\.661 {
+  font-size: 37.65625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium14\.63upper {
+  font-size: 14.625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular48 {
+  font-size: 48px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium35\.63 {
+  font-size: 35.625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.www\.shopify\.comIBMPlexMonoSemiBold30 {
+  font-size: 30px;
+  font-style: normal;
+  font-family: IBM Plex Mono;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold118\.75 {
+  font-size: 118.75px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterBold12\.7upper {
+  font-size: 12.6953125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular7\.88 {
+  font-size: 7.875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold43\.3 {
+  font-size: 43.3046875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular17\.02 {
+  font-size: 17.015625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold45\.19 {
+  font-size: 45.1875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold45\.38 {
+  font-size: 45.375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold118\.13 {
+  font-size: 118.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoBold20upper {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium37\.81 {
+  font-size: 37.8125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular14\.5 {
+  font-size: 14.5px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inOpenSansSemiBold12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium16\.88 {
+  font-size: 16.875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13\.23 {
+  font-size: 13.234375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium17\.3 {
+  font-size: 17.296875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterSemiBold15\.13underline {
+  font-size: 15.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular15\.38 {
+  font-size: 15.375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular15\.13 {
+  font-size: 15.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium38\.59 {
+  font-size: 38.59375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13\.13 {
+  font-size: 13.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold44\.44 {
+  font-size: 44.4375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold24\.48 {
+  font-size: 24.4765625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold14\.63upper {
+  font-size: 14.625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular15\.381 {
+  font-size: 15.375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold27\.66 {
+  font-size: 27.65625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoMedium36 {
+  font-size: 36px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13\.89 {
+  font-size: 13.890625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoRegular11 {
+  font-size: 11px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterSemiBold14\.75upper {
+  font-size: 14.75px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold15\.131 {
+  font-size: 15.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inOpenSansBold14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular20\.97 {
+  font-size: 20.96875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13\.34 {
+  font-size: 13.34375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13\.95 {
+  font-size: 13.9453125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoLight20upper {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 300px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular14\.75 {
+  font-size: 14.75px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular15\.63 {
+  font-size: 15.625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoRegular15 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular20 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.www\.shopify\.comInterRegular15\.25 {
+  font-size: 15.25px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold15\.13 {
+  font-size: 15.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterBold13\.56 {
+  font-size: 13.5625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold15 {
+  font-size: 15px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold14\.5upper {
+  font-size: 14.5px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium16\.73 {
+  font-size: 16.734375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterBold13\.34 {
+  font-size: 13.34375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoRegular20 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold38\.13 {
+  font-size: 38.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inSourceSansProSemiBold14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Source Sans Pro;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold17\.02 {
+  font-size: 17.015625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular13\.34 {
+  font-size: 13.34375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoRegular12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13\.67 {
+  font-size: 13.671875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold28\.36 {
+  font-size: 28.359375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterSemiBold24 {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold24\.38 {
+  font-size: 24.375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.www\.shopify\.comInterRegular17\.3 {
+  font-size: 17.296875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold45\.64 {
+  font-size: 45.640625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoRegular24title {
+  font-size: 24px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterBold20 {
+  font-size: 20px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold44\.81 {
+  font-size: 44.8125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold44\.63 {
+  font-size: 44.625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium14\.75upper {
+  font-size: 14.75px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inOpenSansRegular14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterBold13upper {
+  font-size: 13px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterSemiBold17\.86 {
+  font-size: 17.859375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold43\.66 {
+  font-size: 43.6640625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular21\.14 {
+  font-size: 21.140625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inOpenSansSemiBold16 {
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 600px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium36\.88 {
+  font-size: 36.875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular17\.16 {
+  font-size: 17.15625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterSemiBold15\.25underline {
+  font-size: 15.25px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterSemiBold18\.91 {
+  font-size: 18.90625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold52\.39 {
+  font-size: 52.390625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold37\.66 {
+  font-size: 37.65625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inRobotoRegular21 {
+  font-size: 21px;
+  font-style: normal;
+  font-family: Roboto;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inOpenSansRegular12 {
+  font-size: 12px;
+  font-style: normal;
+  font-family: Open Sans;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold14\.88upper {
+  font-size: 14.875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold13\.13 {
+  font-size: 13.125px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterRegular15\.5 {
+  font-size: 15.5px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterSemiBold17\.72 {
+  font-size: 17.71875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterSemiBold19\.22 {
+  font-size: 19.21875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold37\.19 {
+  font-size: 37.1875px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold14\.75 {
+  font-size: 14.75px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterMedium17\.02 {
+  font-size: 17.015625px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 500px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular13 {
+  font-size: 13px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
+.www\.shopify\.comInterBold24\.27 {
+  font-size: 24.2734375px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 700px;
+  font-stretch: normal;
+}
+.ncbharyana\.inInterRegular14 {
+  font-size: 14px;
+  font-style: normal;
+  font-family: Inter;
+  font-weight: 400px;
+  font-stretch: normal;
+}
